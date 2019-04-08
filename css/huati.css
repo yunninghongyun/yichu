@@ -1,0 +1,258 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.wrap {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+header {
+  width: 100%;
+  height: 1.5rem;
+  background-image: url(../images/u48.png);
+  background-position: center center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+footer {
+  width: 100%;
+  height: 1.5rem;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.main {
+  width: 100%;
+  display: block;
+  overflow: scroll;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.header-inner {
+  margin-left: 0.9rem;
+}
+.header-inner a {
+  float: left;
+  display: block;
+  font-size: 0.4rem;
+  margin: 0.5rem 0.82rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+.header-inner a:last-child {
+  color: #00775c;
+}
+.header-inner a p {
+  font-size: 0.3rem;
+  display: block;
+}
+.header-inner a p:last-child {
+  font-size: 0.15rem;
+  display: block;
+}
+.main .swiper-container img {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+.main-3 {
+  padding: 0.2rem 0.38rem;
+}
+.main-3 .main-3-l {
+  width: 100%;
+  float: left;
+}
+.main-3 .main-3-l1 {
+  width: 100%;
+  float: left;
+}
+.main-3 .main-3-l1 img {
+  width: 0.5rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+.main-3 .main-3-l1 h4 {
+  float: left;
+  display: block;
+  font-size: 0.2rem;
+  line-height: 0.5rem;
+  color: #00775c;
+}
+.main-3 .main-3-l p {
+  float: left;
+  display: block;
+  font-size: 0.3rem;
+  line-height: 0.7rem;
+  color: #333333;
+}
+.main-3 .main-3-r {
+  width: 0.6rem;
+  float: right;
+  display: block;
+  margin-top: 0.3rem;
+}
+.main-3 > p {
+  display: block;
+  margin-top: 0.4rem;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  font-size: 0.3rem;
+  color: #6c6a6b;
+  line-height: 0.5rem;
+}
+.main-3 .art-foot {
+  /* margin-top: 0.2rem; */
+  width: 100%;
+}
+.main-3 .art-foot-1 {
+  float: left;
+  width: 3rem;
+}
+.main-3 .art-foot-2 {
+  width: 2.8rem;
+  float: right;
+  padding-left: 0.6rem;
+}
+.main-3 .art-foot p {
+  font-size: 0.3rem;
+  display: block;
+  color: #b8b8b8;
+}
+.main-3 .art-foot a {
+  display: block;
+  float: left;
+  font-size: 0.26rem;
+  color: #b8b8b8;
+  text-decoration: none;
+  margin-right: 0.2rem;
+}
+.main-3 .art-foot i {
+  margin-right: 0.1rem;
+}
+section .main-bottom {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 3;
+  padding-bottom: 0.3rem;
+}
+section .main-bottom .bottom-inner {
+  width: 100%;
+  padding: 0.3rem 0.3rem;
+}
+section .main-bottom .bottom-inner > a {
+  float: left;
+  margin-left: 0.5rem;
+}
+section .main-bottom .bottom-inner > .jiahao > a > img {
+  width: 48px;
+}
+section .main-bottom .bottom-inner > div {
+  float: left;
+  width: 1rem;
+  height: 1.3rem;
+  overflow: hidden;
+  margin-right: 0.5rem;
+}
+section .main-bottom .bottom-inner > div:last-child {
+  margin-right: 0;
+}
+
+section .main-bottom .bottom-inner > div > a > img {
+  display: block;
+  float: left;
+}
+section .main-bottom .bottom-inner > div > a:first-child > img {
+  margin-bottom: 0.2rem;
+}

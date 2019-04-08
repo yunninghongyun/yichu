@@ -1,0 +1,106 @@
+.warp-container {
+  width: 7.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/page1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.warp-container > .warp-top > .cha > img {
+  padding-top: 0.7rem;
+  padding-left: 0.55rem;
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  float: left;
+}
+.warp-container > .warp-top > .word {
+  float: left;
+  color: #fff;
+  font-size: 0.4rem;
+  padding-top: 0.65rem;
+  padding-left: 4.2rem;
+  text-decoration: none;
+}
+.warp-container > .warp-main {
+  padding-top: 5rem;
+  /* padding-left: 2rem; */
+  width: 4.2rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+.warp-container > .warp-main input {
+  width: 3.5rem;
+  height: 0.5rem;
+  /* padding-left: 0.2rem; */
+  border: 0;
+  outline: medium;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+input::-webkit-input-placeholder {
+  color: #d9f5f5;
+}
+
+.warp-container > .warp-main > a {
+  background-color: #8bdfe0;
+  border: 2px solid #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0.8rem;
+  width: 4rem;
+  line-height: 0.7rem;
+  font-size: 0.4rem;
+  border-radius: 20px;
+  color: #fff;
+}
+.warp-container > .warp-main > span {
+  display: block;
+  width: 4rem;
+  font-size: 0.3rem;
+  color: #ade0db;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.warp-container > .warp-main i {
+  font-size: 0.3rem;
+  /* display: block; */
+  color: #fff;
+}
+.warp-container > .warp-main > .pic > .pic1 {
+  text-decoration: none;
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-left: 0.8rem;
+  float: left;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.warp-container > .warp-main > .pic > .pic1:first-child {
+  margin-left: 0;
+}
+.warp-container > .warp-main > .pic > .pic1 > img {
+  /* display: block;
+  float: left;
+  margin: 0 auto; */
+  vertical-align: middle;
+  width: 0.5rem;
+}
+.warp-container > .warp-bottom > span {
+  display: block;
+  font-size: 0.3rem;
+  /* padding-left: 0.2rem; */
+  color: #ade0db;
+  text-align: center;
+  margin-top: 0.8rem;
+}

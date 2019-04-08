@@ -1,0 +1,191 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.warp {
+  width: 7.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.top {
+  width: 100%;
+  height: 5.6rem;
+  background-image: url(../images/neirong1.png);
+  background-position: center center;
+  background-size: cover;
+  border-bottom: 2px solid #57aaa0;
+}
+.top > a > i {
+  font-size: 0.4rem;
+  color: #57aaa0;
+  margin-left: 0.5rem;
+}
+.top > .guanzhu {
+  width: 0.8rem;
+  float: right;
+  border: 1px solid #57aaa0;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 0.5rem;
+  margin: 0.63rem 0.3rem 0 0;
+}
+.top > .guanzhu > a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.24rem;
+}
+section > .main-inner > .main-top {
+  position: relative;
+}
+
+section > .main-inner > .main-top .main-top-right {
+  width: 2rem;
+  position: absolute;
+  top: -0.75rem;
+  right: 0;
+}
+section > .main-inner > .main-top .main-top-right > img {
+  display: block;
+  width: 1.5rem;
+}
+section > .main-inner > .main-top .main-top-right > span {
+  display: block;
+  font-size: 0.3rem;
+  color: #57aaa0;
+  text-align: center;
+  margin-left: -0.5rem;
+  line-height: 0.5rem;
+}
+section > .main-inner > .main-top .main-top-left {
+  width: 2rem;
+  margin-top: -0.3rem;
+  margin-left: 0.4rem;
+  float: left;
+}
+section > .main-inner > .main-top .main-top-left > span {
+  font-size: 0.2rem;
+  color: #57aaa0;
+  margin-left: -0.1rem;
+}
+section > .main-inner > .main-min {
+  margin-left: 0.3rem;
+}
+section > .main-inner > .main-min > .min-top > h2 {
+  width: 3rem;
+  font-size: 0.5rem;
+  color: #4d4d4d;
+  margin-top: 0.3rem;
+}
+section > .main-inner > .main-min > .min-top > span {
+  display: block;
+  color: #4d4d4d;
+  font-size: 0.2rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+section > .main-inner > .main-min > .min-top > p {
+  width: 6rem;
+  font-size: 0.3rem;
+  color: #989898;
+  line-height: 0.5rem;
+}
+section > .main-inner > .main-bottom {
+  margin-left: 0.5rem;
+  padding-top: 1rem;
+}
+section > .main-inner > .main-bottom > a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #57aaa0;
+  font-size: 0.2rem;
+  margin-right: 2rem;
+}
+section > .main-inner > .main-bottom > a > i {
+  font-size: 0.4rem;
+}
+section > .main-inner > .main-bottom > a:last-child {
+  margin-right: 0;
+}

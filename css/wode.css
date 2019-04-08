@@ -1,0 +1,293 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.warp {
+  width: 7.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.top {
+  width: 100%;
+  /* height: 4.2rem; */
+  background: -webkit-linear-gradient(#0ed9e7, #21f6e2);
+  box-shadow: 0.01rem 0.01rem 0.01rem 0.01rem #d6ece9;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0px 0px 25px 25px;
+  padding-bottom: 0.4rem;
+}
+.top > .top-word {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 0.3rem 0.6rem;
+}
+.top > .top-word > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.4rem;
+}
+.top > .top1 {
+  padding-left: 0.6rem;
+}
+.top > .top1 > img {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+.top > .top1 > .top1-word {
+  float: left;
+}
+.top > .top1 > .top1-word > h3 {
+  font-size: 0.4rem;
+  color: #fff;
+  line-height: 0.8rem;
+}
+.top > .top1 > .top1-word > p {
+  font-size: 0.24rem;
+  color: #09c2b4;
+}
+.top > .top1 > .pic {
+  float: right;
+}
+.top > .top1 > .pic > img {
+  display: block;
+  width: 1.2rem;
+  margin-top: 0.6rem;
+}
+.top > .top2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.4rem;
+  /* margin-left: 0.9rem; */
+}
+.top > .top2 > .top2-word {
+  /* float: left; */
+  text-align: center;
+}
+.top > .top2 > .top2-word > span {
+  display: block;
+  font-size: 0.4rem;
+  color: #09c2b4;
+}
+.top > .top2 > .top2-word > p {
+  font-size: 0.3rem;
+  color: #09c2b4;
+}
+.main {
+  width: 100%;
+  display: block;
+  overflow: scroll;
+  padding-bottom: 1.5rem;
+}
+.main-inner {
+  padding: 0.3rem;
+}
+.main-inner .main-one-1 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 0.2rem;
+  justify-content: space-between;
+}
+.main-inner .main-one-1 h3 {
+  font-size: 0.3rem;
+  line-height: 0.6rem;
+}
+.main-inner .main-one-1 a {
+  line-height: 0.6rem;
+  font-size: 0.4rem;
+  color: #9f9f9f;
+  text-decoration: none;
+}
+.main-inner .main-one-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.main-inner .main-one-2 img {
+  width: 2.1rem;
+  float: left;
+}
+.main-inner .main-one-2 p {
+  font-size: 0.3rem;
+  color: #616161;
+  float: left;
+  display: block;
+}
+.main-two a {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #e5e4e9;
+  padding: 0.3rem 0;
+}
+.main-two a img {
+  float: left;
+  display: block;
+  width: 0.44rem;
+  margin-right: 0.25rem;
+}
+.main-two a h3 {
+  font-size: 0.3rem;
+  float: left;
+  display: block;
+  font-size: 0.3rem;
+  color: #292929;
+  margin-right: 0.2rem;
+}
+.main-two a p {
+  font-size: 0.3rem;
+  float: left;
+  display: block;
+  font-size: 0.26rem;
+  line-height: 0.44rem;
+  color: #919191;
+}
+.main-two a span {
+  font-size: 0.3rem;
+  float: right;
+  display: block;
+  line-height: 0.44rem;
+  color: #797979;
+}
+.main-two a i {
+  margin-left: 0.3rem;
+  font-size: 0.3rem;
+  float: right;
+  display: block;
+  line-height: 0.44rem;
+}
+section > .main-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0.3rem 0;
+}
+section > .main-top > h2 {
+  font-size: 0.4rem;
+}
+section > .main-top > p {
+  display: block;
+  font-size: 1rem;
+  color: #929292;
+  margin-top: -0.6rem;
+}
+
+section .main-bottom {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 3;
+  padding-bottom: 0.3rem;
+}
+section .main-bottom .bottom-inner {
+  width: 100%;
+  padding: 0.3rem 0.3rem;
+}
+section .main-bottom .bottom-inner > a {
+  float: left;
+  margin-left: 0.5rem;
+}
+section .main-bottom .bottom-inner > .jiahao > a > img {
+  width: 48px;
+}
+section .main-bottom .bottom-inner > div {
+  float: left;
+  width: 1rem;
+  height: 1.3rem;
+  overflow: hidden;
+  margin-right: 0.5rem;
+}
+section .main-bottom .bottom-inner > div:last-child {
+  margin-right: 0;
+}
+
+section .main-bottom .bottom-inner > div > a > img {
+  display: block;
+  float: left;
+}
+section .main-bottom .bottom-inner > div > a:first-child > img {
+  margin-bottom: 0.2rem;
+}
