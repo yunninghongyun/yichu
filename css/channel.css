@@ -1,0 +1,126 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.wrap {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+header {
+  width: 100%;
+  height: 1.3rem;
+  background: linear-gradient(#1f9295, #2cc9be, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  text-align: center;
+}
+header a {
+  float: left;
+  font-size: 0.5rem;
+  line-height: 1.3rem;
+  padding-left: 0.2rem;
+  color: #049878;
+}
+header p {
+  font-size: 0.34rem;
+  line-height: 1.3rem;
+  color: #049979;
+  left: -0.25rem;
+}
+.main {
+  width: 100%;
+  display: block;
+  overflow: scroll;
+  padding-top: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main img {
+  width: 2.5rem;
+  height: 2.5rem;
+}

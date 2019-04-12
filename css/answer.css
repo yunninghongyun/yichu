@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.wrap {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+header {
+  width: 100%;
+  height: 1.3rem;
+  background: linear-gradient(#1f9295, #2cc9be, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+  align-items: center;
+}
+header a {
+  display: block;
+  float: left;
+  font-size: 0.36rem;
+  color: #049878;
+  text-decoration: none;
+}
+header a:nth-child(3) {
+  display: block;
+  color: #fff;
+  font-size: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+header p {
+  display: block;
+  font-size: 0.36rem;
+  padding-left: 0.2rem;
+  text-decoration: none;
+  color: #1f9295;
+  display: inline-block;
+}
+.main {
+  width: 100%;
+  display: block;
+  overflow: scroll;
+  padding: 0 0.3rem;
+  padding-top: 1.3rem;
+}
+.main-one {
+  width: 100%;
+}
+.main-one > div {
+  width: 100%;
+}
+.main-one-1 h3 {
+  float: left;
+  font-size: 0.3rem;
+  color: #323232;
+  line-height: 0.8rem;
+  margin-right: 0.1rem;
+}
+.main-one-1 p {
+  float: left;
+  font-size: 0.2rem;
+  color: #8bcebc;
+  line-height: 0.8rem;
+}
+.main-one-2 {
+  font-size: 0.26rem;
+  line-height: 0.4rem;
+  color: #5c5c5c;
+}
+.main-one-3 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.6rem;
+}
+.main-one-3 p {
+  font-size: 0.2rem;
+  color: #b8b8b8;
+}
+.hengxian {
+  border-bottom: 1px solid #f5f5f5;
+  margin: 0 -0.3rem;
+}

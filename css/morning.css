@@ -1,0 +1,197 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+header {
+  width: 100%;
+  height: 1.3rem;
+  background: linear-gradient(#1f9295, #2cc9be, #35efbe);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  text-align: center;
+  padding: 0 0.3rem 0;
+}
+header div:first-child {
+  float: left;
+}
+header div:last-child {
+  float: right;
+}
+header a {
+  float: left;
+  font-size: 0.4rem;
+  line-height: 1.3rem;
+  padding-left: 0.2rem;
+  color: #049878;
+  text-decoration: none;
+}
+header p {
+  float: left;
+  display: block;
+  font-size: 0.4rem;
+  line-height: 1.3rem;
+  color: #049979;
+  margin-left: 0.4rem;
+}
+.main {
+  width: 100%;
+  display: block;
+  overflow: scroll;
+  padding: 1.3rem 0.3rem 0 0.3rem;
+  background-color: #f5f5f5;
+}
+.main-one {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.main-one img {
+  float: left;
+  width: 0.7rem;
+  border-radius: 50%;
+  display: block;
+  margin: 0.4rem 0.2rem 0.3rem 0;
+}
+.main-one h3 {
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.5rem;
+  color: #1f1f1f;
+  margin-top: 0.3rem;
+  margin-right: 4rem;
+}
+.main-one p {
+  float: left;
+  font-size: 0.22rem;
+  line-height: 0.3rem;
+  color: #b1b1b1;
+}
+.main-two {
+  width: 100%;
+  /* color: #f5f5f5; */
+}
+.main-two div {
+  float: right;
+  width: 3.7rem;
+  background-color: #fff;
+  padding: 0.5rem 0.3rem 0.6rem 0.3rem;
+  border-radius: 4px;
+  float: left;
+}
+.main-two div h3 {
+  font-size: 0.4rem;
+  line-height: 0.9rem;
+}
+.main-two div p {
+  font-size: 0.2rem;
+  line-height: 0.4rem;
+}
+.main-two img {
+  width: 2.8rem;
+  float: right;
+}
+.main .main-three {
+  width: 100%;
+  margin-top: 0.3rem;
+}
+.main .main-three a {
+  display: block;
+  float: left;
+  font-size: 0.26rem;
+  color: #b8b8b8;
+  text-decoration: none;
+  margin-right: 0.2rem;
+}
+.main .main-three i {
+  margin-right: 0.1rem;
+}
